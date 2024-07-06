@@ -11,8 +11,18 @@
 <body>
   <div class="container">
     <header>
-      <div class="photo">
-        <img src="photo.jpg" alt="Photo">
+      <nav>
+        <span class="logo"><a href="/">Anna L</a></span>
+        <ul class="nav">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">My Skills</a></li>
+          <li><a href="#code">Code example</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education and Languages</a></li>
+        </ul>
+      </nav>
+      <div class="photo_block">
+        <img class="avatar" src="images/photo.jpg" alt="Photo" height="300px">
       </div>
       <div class="info">
         <h1>Anna Lazarenko</h1>
@@ -28,7 +38,7 @@
     </header>
     <main>
       <div class="block">
-        <h2>About me:</h2>
+        <h2 id="about">About me:</h2>
         <p>I have a higher technical education, worked as a design engineer.
 
           For several years I worked as a tester of various Yandex products. I started learning python and got the
@@ -41,7 +51,7 @@
           constantly improve my level.</p>
       </div>
       <div class="block">
-        <h2>My Skills:</h2>
+        <h2 id="skills">My Skills:</h2>
         <ul class="scills">
           <li>python</li>
           <li>basic algorithms and data structures</li>
@@ -55,13 +65,30 @@
         </ul>
       </div>
       <div class="block">
-        <h2>Code example:</h2>
+        <h2 id="code">Code example:</h2>
+        <pre>
+          <code lang="JavaScript">
+            function multiply(a, b){
+              return a * b;
+            }
+            let result = multiply(3, 5);
+            alert( result );
+          </code>
+        </pre>
       </div>
       <div class="block">
-        <h2>Projects:</h2>
+        <h2 id="projects">Projects:</h2>
+        <div class="card">
+          <h3><a href="https://annaulazar.github.io/rsschool-cv/">CV html</a></h3>
+          <img src="images/CV.jpg" alt="CV html">
+        </div>
+        <div class="card">
+          <h3><a href="https://github.com/annaulazar/vk_bot_project">Chat-bot with game "Field of miracles"</a></h3>
+          <img src="images/vkbot.jpg" alt="Chat-bot">
+        </div>
       </div>
       <div class="block">
-        <h2>Education and Languages:</h2>
+        <h2 id="education">Education and Languages:</h2>
         <div class="education_block">
           <div class="left_block">
             University:
@@ -96,7 +123,13 @@
       </div>
     </main>
     <footer>
-
+      <span class="github">
+        <a href="https://github.com/annaulazar" target="_blank"><img src="images/github_PNG20.png" alt="github"></a>
+      </span>
+      <span>2024</span>
+      <span class="logo">
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="images/rs-school-logo.svg" alt="RSS"></a>
+      </span>
     </footer>
 
   </div>
