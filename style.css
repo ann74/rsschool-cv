@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  color: #555454;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 20px 0;
+  background-color: rgb(68, 68, 68);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_link {
+  padding-left: 20px;
+  line-height: 50px;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav_link:hover {
+  color: rgb(143, 141, 141);
+}
+
+.photo_block {
+  width: 30%;
+}
+
+.avatar {
+  width: 80%;
+}
+
+.info {
+  width: 70%;
+  padding-left: 30px;
+}
+
+.contact {
+  line-height: 2;
+}
+
+.contact>span:last-child {
+  padding-left: 20px;
+}
+
+.section {
+  border-top: solid gray 1px;
+  padding-bottom: 30px;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border-top: none;
+}
+
+#about > p {
+  text-align: justify;
+}
+
+.scills {
+  list-style: disc;
+  padding-left: 80px;
+}
+
+.scills > li {
+  line-height: 2;
+}
+
+.code {
+  position: relative;
+  left: -70px;
+}
+
+.section:last-child {
+  padding-bottom: 120px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card {
+  width: 48%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.projects a {
+  color: #767575;
+}
+
+.projects a:hover {
+  color: #383737;
+}
+
+.education_block {
+  display: flex;
+  line-height: 2;
+}
+
+.left_block {
+  padding-left: 30px;
+  width: 150px;
+}
+
+.footer {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer_menu a {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer_menu a:hover {
+  color: rgb(143, 141, 141);
+}
+
+.footer_menu span {
+  padding-left: 10px;
+}
+
+.footer_logo {
+  height: 70px;
+}

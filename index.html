@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/icon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <span><a href="/" class="nav_link">Anna L</a></span>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#contacs" class="nav_link">Contacs</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">About me</a></li>
+          <li class="nav_item"><a href="#skills" class="nav_link">My Skills</a></li>
+          <li class="nav_item"><a href="#code" class="nav_link">Code example</a></li>
+          <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+          <li class="nav_item"><a href="#education" class="nav_link">Education and Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="top_section section">
+        <div class="photo_block">
+          <img class="avatar" src="images/photo.jpg" alt="Photo">
+        </div>
+        <div class="info" id="contacs">
+          <h1>Anna Lazarenko</h1>
+          <p>Python Backend Developer and beginner Frontend Developer</p>
+          <h2>Contacts:</h2>
+          <ul>
+            <li class="contact"><span>Phone:</span><span>+7 961 708 1181</span></li>
+            <li class="contact"><span>E-mail:</span><span>ulazar@yandex.ru</span></li>
+            <li class="contact"><span>Telegram:</span><span>@aulazar</span></li>
+            <li class="contact"><span>Discord:</span><span>Anna Lazarenko (@ann74)</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <h2>About me:</h2>
+        <p>I have a higher technical education, worked as a design engineer.
+          For several years I worked as a tester of various Yandex products. I started learning python and got the
+          profession of
+          python backend developer. I have completed several educational and commercial projects in python.
+          Now I have started studying frontend development. I know HTML, CSS and JS basic.
+          I like programming. I easily master new information and tools. I strive for development in the field of IT and
+          constantly improve my level.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2>My Skills:</h2>
+        <ul class="scills">
+          <li>python</li>
+          <li>basic algorithms and data structures</li>
+          <li>frameworks Django, Fastapi, Aiohttp</li>
+          <li>libraries pandas, numpy, plotly, selenium</li>
+          <li>Docker, Docker-compose</li>
+          <li>SQL, PostgreSQL, ORM (SQLAlchemy)</li>
+          <li>HTML, CSS, JavaScript Basics</li>
+          <li>Git, Github</li>
+          <li>VS Code, Pycharm</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2>Code example:</h2>
+        <pre>
+            <code class="code">
+              function multiply(a, b){
+                return a * b;
+              }
+              let result = multiply(3, 5);
+              alert( result );
+            </code>
+          </pre>
+      </section>
+      <section class="section" id="projects">
+        <h2>Projects:</h2>
+        <div class="projects">
+          <div class="card">
+            <h3><a href="https://annaulazar.github.io/rsschool-cv/" target="_blank">CV html</a></h3>
+            <img src="images/CV.jpg" alt="CV html">
+          </div>
+          <div class="card">
+            <h3><a href="https://github.com/annaulazar/vk_bot_project" target="_blank">Chat-bot with game "Field of
+                miracles"</a></h3>
+            <img src="images/vkbot.jpg" alt="Chat-bot">
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <h2 id="education">Education and Languages:</h2>
+        <div class="education_block">
+          <div class="left_block">
+            University:
+          </div>
+          <div class="right_block">
+            Tomsk Polytechnic University
+          </div>
+        </div>
+        <div class="education_block">
+          <div class="left_block">
+            Courses:
+          </div>
+          <div class="right_block">
+            <ul>
+              <li>Training on algorithms, Yandex, 2023, 2024</li>
+              <li>Python-developer, Skypro, 2022</li>
+              <li>SQL, Stepik, 2022</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education_block">
+          <div class="left_block">
+            Languages:
+          </div>
+          <div class="right_block">
+            <ul>
+              <li>English - Intermediate (B1)</li>
+              <li>Russian - Native</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_menu">
+        <div class="logo">
+          <a href="https://github.com/annaulazar" target="_blank">
+            <img src="images/github-mark-white.svg" alt="github" class="footer_logo"><span>My Github</span>
+          </a>
+        </div>
+        <div>2024</div>
+        <div class="logo">
+          <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+            <img src="images/rs-school-logo.svg" alt="RSS" class="footer_logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
